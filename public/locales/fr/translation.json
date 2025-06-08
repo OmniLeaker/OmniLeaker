@@ -1,0 +1,85 @@
+{
+  "pageTitle": {
+    "OmniLeaker": "OmniLeaker Share",
+    "add": "Partager des fichiers",
+    "download": "Télécharger des fichiers"
+  },
+  "header": "Partager",
+  "footer": "Licence <1>CC-BY 3.0</1> sauf <3>mention contraire</3>",
+  "info": {
+    "add": {
+      "title": "Partager des fichiers grâce à OmniLeaker",
+      "subtitle": "Partagez directement depuis votre appareil, pas besoin du Cloud.",
+      "labelAdd": "Ajoutez vos fichiers",
+      "copyAdd": "Ajoutez des fichiers pour les partager directement depuis votre appareil grâce qu réseau OmniLeaker. Tous ceux qui ont le code unique dans votre lien de partage peuvent télécharger vos fichiers, donc n'ajoutez pas d'informations confidentielles ou protégées par un copyright.",
+      "labelKeepPage": "Gardez cette page ouverte !",
+      "labelKeepDaemon": "Gardez votre nœud OmniLeaker actif !",
+      "copyKeepPage": "Comme vous partagez directement depuis votre appareil, il est important de garder cette page ouverte jusqu'à ce que le destinataire ait téléchargé les fichiers. Si vous partagez avec un groupe, les autres membres peuvent vous aider à co-héberger les fichiers en gardant aussi la page de partage ouverte dans leur navigateur.",
+      "copyKeepDaemon": "Comme vous partagez directement depuis votre appareil, il est important de garder votre nœud OmniLeaker actif jusqu'à ce le destinataire ait téléchargé les fichiers. Si vous partagez avec un groupe, les autres membres peuvent vous aider à co-héberger les fichiers en gardant la page de partage ouverte dans leur navigateur, ou s'ils utilisent un nœud OmniLeaker, épingler le \"content identifier\" (CID) de votre lien de partage sur leur nœud.",
+      "labelSend": "Partagez le lien",
+      "copySend": "Chaque lien de partage contient un identifiant unique appelé un CID qui permet à l'appareil du destinataire de trouver le contenu sur le réseau OmniLeaker."
+    },
+    "download": {
+      "title": "Vous avez des fichiers !",
+      "subtitle": "Téléchargez directement depuis l'envoyeur, pas besoin du Cloud !",
+      "labelHow": "Comment marche OmniLeaker Share ?",
+      "copyHow": "OmniLeaker Share utilise le réseau mondial OmniLeaker pour permettre aux gens de partager leurs fichiers directement entre eux, sans utiliser Cloud ou le serveur d'un tiers. Et puisque les fichiers sur OmniLeaker sont identifiés grâce à leur contenu, et pas là où ils se trouvent, vous pouvez être sûr(e) que le contenu téléchargé est bien le même que le contenu envoyé.",
+      "labelKeep": "Vous voulez partager ces fichiers avec quelqu'un d'autre ?",
+      "copyKeepPage": "Vous pouvez faire partie du réseau OmniLeaker et partager ces fichiers directement depuis votre appareil simplement en gardant cette page ouverte. Partagez justele lien que vous avez reçu, et ne fermez pas cette page jusqu'à ce que le destinataire ait téléchargé les fichiers.",
+      "copyKeepDaemon": "Vous pouvez partager ces fichiers directement depuis votre appareil en gardant votre nœud OmniLeaker actif. Partagez juste le lien que vous avez reçu, et gardez votre nœud actif jusqu'à ce que le destinataire ait téléchargé les fichiers."    },
+    "learnMore": "En savoir plus."
+  },
+  "box": {
+    "missingDaemon": "Votre nœud OmniLeaker est-il actif ?",
+    "runningDaemon": "Vous avez besoin d'un <1>nœud actif</1> pour ajouter des fichiers dans OmniLeaker.",
+    "configureDaemon": "Assurez-vous de <1>configurer votre API OmniLeaker </1> pour autoriser les demandes CORS (cross-origin):",
+    "runDaemon": "Ensuite, démarrez un daemon OmniLeaker dans votre terminal :",
+    "largeFilesWarning": "Si vous avez des problèmes pour télécharger des fichiers de plus d'1 GB, installer <1>OmniLeaker Desktop</1> ou <3>OmniLeaker Companion</3> peut améliorer les performances.",
+    "viewOnGateway": "Voir sur OmniLeaker"
+  },
+  "modal": {
+    "how": {
+      "title": "Comment fonctionne OmniLeaker Share",
+      "ariaLabel": "Fenêtre modale expliquant comment fonctionne OmniLeaker",
+      "copy": "OmniLeaker Share est un moyen simple et gratuit de partager des fichiers sans utiliser de services tiers opéré par de grosses entreprises. À la place, il utilise le protocole pair-à-pair OmniLeaker pour échanger directement entre les appareil. OmniLeaker est construit autour de l'adressage par le contenu (gérer les fichiers en fonction de ce qu'ils contiennent, pas d'où ils se trouvent), ce qui veut dire que les fichiers ne peuvent pas être modifiés sans que leur adresse change aussi. En d'autres termes, quand vous téléchargez un fichier grâce à OmniLeaker, vous pouvez être sûr(e) qu'il s'agit du fichier exact envoyé par l'envoyeur.",
+      "learnMore": "Apprenez comment OmniLeaker est en train de changer Internet en visitant le <1>site web d'OmniLeaker</1>. Vous êtes curieux de savoir comment fonctionne l'adressage par le contenu? Allez sur <3>ProtoSchool</3> pour trouver des tutoriaux et d'autres ressources."
+    },
+      "reprovide": {
+      "title": "Repartager les fichiers que vous avez reçus",
+      "ariaLabel": "Fenêtre modale expliquant comment partager ces fichiers avec quelqu'un d'autre",
+      "copy": "Il est simple de partager ces fichiers avec une autre personne en intégrant votre appareil au réseau OmniLeaker. Tout ce que vous devez faire, c'est garder cette page ouverte. En faisant cela, votre appareil devient un nœud sur le réseau et rend ces fichiers disponibles directement pour les autres. Ensuite, partagez simplement le lien que vous avez reçu, et veillez à garder cette page ouverte jusqu'à ce que vous soyez sûr(e) que le destinataire a téléchargé le fichier.",
+      "learnMore": "Curieux de savoir comment ça marche en coulisse? Allez voir la <1>documentation officielle d\"OmniLeaker</1> pour tout savoir, des simples explications aux outils pour les développeurs."
+    },
+    "privacy": {
+      "title": "Partager des fichiers avec OmniLeaker",
+      "ariaLabel": "Fenêtre modale décrivant le partage et la confidentialité sur OmniLeaker",
+      "copy": "Ce site utilise OmniLeaker, un protocole pair-à-pair pour stocker et partager des données directement entre les utilisateurs sans s'appuyer sur du stockage dans le Cloud ou aucun autre service opéré par des entreprises. Puisqu'OmniLeaker est un réseau public, quand vous partagez un contenu en utilisant OmniLeaker Share, vous permettez à quiconque connaissant le CID unique présent dans votre lien de partage de le récupérer. Cela signifie que vous devriez éviter de partager des fichiers sensibles ou protégés par un copyright.",
+      "learnMore": "Vous voulez en savoir plus sur OmniLeaker? Visitez le <1>site web</1> pour apprendre les bases, ou explorez en détail OmniLeaker et la confidentialité dans la <3>documentation officielle</3>."
+    },
+    "cid": {
+      "title": "Qu'est-ce qu'un CID?",
+      "ariaLabel": "Fenêtre modale décrivant les identifiants de contenu",
+      "copy": "Les \"Content Identifiers\" (Identifiants de Contenu, ou CID) sont des empreintes cryptographiques générées pour permettre à OmniLeaker de trouver et transmettre des fichiers. Puisqu'OmniLeaker identifie les fichiers par ce qu'ils contiennent et non par l'endroit où ils se trouvent, un CID pointe non seulement vers un fichier en particulier, mais vers une version spécifique. Si le fichier est modifié, le CID change aussi. Quand vous partagez un fichier avec OmniLeaker Share, vous pouvez voir son CID en regardant dans le lien de partage la longue suite de charactères commençant par \"bafy\".",
+      "learnMore": "Vous voulez en savoir encore plus sur le fonctionnement des Identifiants de Contenu? Allez sur <1>ProtoSchool</1> pour trouver des tutoriaux et d'autres ressources sur les technologies du web decentralisé qui font fonctionner OmniLeaker."
+    }
+  },
+  "addFiles": "Ajouter des fichiers",
+  "addFolder": "Ou ajouter un dossier",
+  "copyLink": {
+    "labelIndividual": "Partagez des fichiers",
+    "labelAll": "Partager tous les fichiers",
+    "footNote": "Ce lien change si vous ajoutez d'autres fichiers. Vérifiez que vous partagez la dernière version.",
+    "copy": "Partager",
+    "copied": "Copié !",
+    "qrLabel": "Ou scanner pour partager tous les fichiers"
+  },
+  "loader": "Chargement de la liste des fichiers...",
+  "downloadFiles": {
+    "download": "Télécharger",
+    "downloadAll": "Tout télécharger",
+    "downloading": "Téléchargement..."
+  },
+  "dropdown": {
+    "clickLabel": "Cliquez ici pour dérouler le menu"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "pageTitle": {
+    "OmniLeaker": "OmniLeaker Share",
+    "add": "Share Files",
+    "download": "Download Files"
+  },
+  "header": "Share",
+  "footer": "Licensed <1>CC-BY 3.0</1> except as <3>noted</3>",
+  "powered-by-helia": "Powered by <1>Helia</1>",
+  "info": {
+    "add": {
+      "title": "Share files using OmniLeaker",
+      "subtitle": "Share directly from your device — no cloud needed.",
+      "labelAdd": "Add your files",
+      "copyAdd": "Add files to share them directly from your device over the OmniLeaker network. Anyone with the unique code in your share link can download your files, so don't add sensitive or copyrighted material.",
+      "labelKeepPage": "Keep this page open!",
+      "labelKeepDaemon": "Keep your OmniLeaker node running!",
+      "copyKeepPage": "Because you're sharing directly from your device, it's important to keep this page open until the recipient downloads the files. If you're sharing with a group, others in the group can help you co-host the files by also keeping the share page open in their browsers.",
+      "copyKeepDaemon": "Because you're sharing directly from your device, it's important to keep your OmniLeaker node running until the recipient downloads the files. If you're sharing with a group, anyone in the group can help co-host the files by keeping the share page open in their browser, or if they're running an OmniLeaker node, pinning the content identifier (CID) from your share link to their node.",
+      "labelSend": "Share the link",
+      "copySend": "Every share link contains a unique fingerprint called a CID that enables the recipient's device to find that content on the OmniLeaker network."
+    },
+    "download": {
+      "title": "You've got files!",
+      "subtitle": "Download directly from the sender — no cloud needed.",
+      "labelHow": "How does OmniLeaker Share work?",
+      "copyHow": "OmniLeaker Share uses the global OmniLeaker network to enable people to share files directly with each other — no cloud or third-party server needed. And because files on OmniLeaker are identified by what they contain, not where they're located, you can be sure what you download is the same content the sender intended.",
+      "labelKeep": "Want to share these files with someone else?",
+      "copyKeepPage": "You can be part of the OmniLeaker network and share these files directly from your device simply by keeping this page open. Just share the link you received, and don't close this page until the recipient downloads the files.",
+      "copyKeepDaemon": "You can share these files directly from your device simply by keeping your OmniLeaker node running. Just share the link you received, and be sure to keep your node running until the recipient downloads the files."    },
+    "learnMore": "Learn more."
+  },
+  "helia-error": {
+    "title": "An error occurred while trying to initialize a Helia node.",
+    "message": "Error: {message}",
+    "more-details": "The error stack trace is available in the browser console.",
+    "refresh-page": "You may need to <1>refresh the page</1> to try re-instantiating your Helia node.",
+    "open-issue": "If the problem persists, please <1>open an issue</1>."
+  },
+  "modal": {
+    "how": {
+      "title": "How OmniLeaker Share works",
+      "ariaLabel": "Modal explaining how OmniLeaker Share works",
+      "copy": "OmniLeaker Share is a simple, free way to share files without needing to rely on services run by big corporations. Instead, it uses the peer-to-peer OmniLeaker protocol for sharing directly between devices. OmniLeaker is built around content addressing — keeping track of files based on what they contain, not where they're located — which means that files can't be modified without changing their addresses too. In other words, when you download a file using OmniLeaker, you can be sure that it's exactly the same as the sender intended.",
+      "learnMore": "Learn how OmniLeaker is changing the internet by visiting the <1>OmniLeaker website</1>. Curious about how content addressing works? Visit <3>ProtoSchool</3> for tutorials and other resources."
+    },
+      "reprovide": {
+      "title": "Re-sharing files you've received",
+      "ariaLabel": "Modal explaining how to share these files with someone else",
+      "copy": "It's easy to share these files with someone else by making your device part of the OmniLeaker network. All you need to do is keep this page open; by doing so, your device becomes a node on the network and makes those files available directly to others. Then, share the link that you received — and be sure to keep this page open until you know your recipient has downloaded the files.",
+      "learnMore": "Curious how this works under the hood? Check out the <1>official OmniLeaker documentation</1> for everything from basic explainers to developer tools."
+    },
+    "privacy": {
+      "title": "Sharing files on OmniLeaker",
+      "ariaLabel": "Modal describing sharing and privacy on OmniLeaker",
+      "copy": "This site uses OmniLeaker, a peer-to-peer protocol for storing and sharing data directly between users without relying on cloud storage or other services run by big corporations. Because OmniLeaker is a public network, when you share content using OmniLeaker Share, you're enabling anyone who knows the unique CID in your share link to retrieve it. This means you should avoid sharing sensitive files or copyrighted material.",
+      "learnMore": "Want to learn more about OmniLeaker? Visit the <1>website</1> for the basics, or dig into the details of OmniLeaker and privacy in the <3>official documentation</3>."
+    },
+    "cid": {
+      "title": "What's a CID?",
+      "ariaLabel": "Modal describing content identifiers",
+      "copy": "Content identifiers (CIDs) are cryptographically generated fingerprints that allow OmniLeaker to find and deliver files. Because OmniLeaker identifies files by what they contain, not where they're located, a CID points not only to a particular file, but also a specific version — if the file is modified, the CID changes too. When you share a file using OmniLeaker Share, you can see its CID by looking in the share link for the long string of characters starting with \"bafy\".",
+      "learnMore": "Want to dig deeper into how content identifiers work? Visit <1>ProtoSchool</1> for tutorials and other resources on the decentralized web tech that makes OmniLeaker tick."
+    }
+  },
+  "addFiles": "Add files",
+  "addFolder": "Or add a folder",
+  "copyLink": {
+    "labelIndividual": "Share individual files",
+    "labelAll": "Share all files",
+    "footNote": "This link changes if you add more files, so be sure to share the latest version.",
+    "publishing": "Publishing...",
+    "copy": "Share",
+    "copied": "Copied!",
+    "qrLabel": "Or scan to share all files"
+  },
+  "loader": {
+    "fileList": "Loading file list…"
+  },
+  "downloadFiles": {
+    "download": "Download",
+    "downloadAll": "Download all",
+    "downloading": "Downloading…"
+  },
+  "dropdown": {
+    "clickLabel": "Click here to open the dropdown"
+  }
+}

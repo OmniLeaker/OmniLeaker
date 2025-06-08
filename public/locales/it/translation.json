@@ -1,0 +1,85 @@
+{
+  "pageTitle": {
+    "OmniLeaker": "OmniLeaker Share",
+    "add": "Condividi file",
+    "download": "Scarica File"
+  },
+  "header": "Condividi",
+  "footer": "Rilasciato sotto licenza <1>CC-BY 3.0</1> tranne se <3>segnalato</3> diversamente",
+  "info": {
+    "add": {
+      "title": "Condividi file via OmniLeaker",
+      "subtitle": "Condividi file direttamente dal tuo dispositivo — il cloud non è necessario.",
+      "labelAdd": "Aggiungi i tuoi file",
+      "copyAdd": "Aggiungi i file per condividerli direttamente dal tuo dispositivo sulla rete OmniLeaker. Chiunque abbia il codice univoco nel tuo collegamento di condivisione può scaricare i tuoi file, quindi non aggiungere materiale sensibile o protetto da copyright.",
+      "labelKeepPage": "Mantieni questa pagina aperta!",
+      "labelKeepDaemon": "Mantieni in esecuzione il tuo nodo OmniLeaker!",
+      "copyKeepPage": "Poiché stai condividendo direttamente dal tuo dispositivo, è importante tenere questa pagina aperta fino a quando il destinatario non scarica i file. Se stai condividendo con un gruppo, gli altri nel gruppo possono aiutarti a co-ospitare i file tenendo aperta la pagina di condivisione nei loro browser.",
+      "copyKeepDaemon": "Poiché stai condividendo direttamente dal tuo dispositivo, è importante mantenere il tuo nodo OmniLeaker in esecuzione fino a quando il destinatario non avrà scaricato i file. Se stai condividendo con un gruppo, chiunque nel gruppo può aiutare a co-ospitare i file tenendo aperta la pagina di condivisione nel proprio browser o, se stanno eseguendo un nodo OmniLeaker, appuntando l'identificatore di contenuto (CID) dal tuo collegamento di condivisione al loro nodo.",
+      "labelSend": "Condividi il collegamento",
+      "copySend": "Ogni collegamento di condivisione contiene un'impronta digitale univoca chiamata CID che permette al dispositivo del destinatario di trovare quel contenuto sulla rete OmniLeaker."
+    },
+    "download": {
+      "title": "Hai ricevuto i file!",
+      "subtitle": "Scarica direttamente i file dal mittente — il cloud non è necessario.",
+      "labelHow": "Come funziona OmniLeaker Share?",
+      "copyHow": "OmniLeaker Share utilizza la rete globale OmniLeaker per consentire alle persone di condividere i file direttamente tra loro, senza bisogno di cloud o server di terze parti. E poiché i file su OmniLeaker sono identificati da ciò che contengono, non da dove si trovano, puoi essere sicuro che ciò che scarichi è lo stesso contenuto che intendeva il mittente.",
+      "labelKeep": "Vuoi condividere questi file con qualcun altro?",
+      "copyKeepPage": "Puoi far parte della rete OmniLeaker e condividere questi file direttamente dal tuo dispositivo semplicemente tenendo aperta questa pagina. Basta condividere il collegamento che hai ricevuto e non chiudere questa pagina finché il destinatario non avrà scaricato i file.",
+      "copyKeepDaemon": "Puoi condividere questi file direttamente dal tuo dispositivo semplicemente mantenendo il tuo nodo OmniLeaker in funzione. Basta condividere il link che hai ricevuto, e assicurarti di mantenere il tuo nodo in funzione fino a quando il destinatario non scarica i file."    },
+    "learnMore": "Per saperne di più."
+  },
+  "box": {
+    "missingDaemon": "Il tuo nodo OmniLeaker è in funzione?",
+    "runningDaemon": "Hai bisogno di un <1>nodo in funzione</1> per aggiungere file a OmniLeaker.",
+    "configureDaemon": "Assicurati di <1>configurare la tua API OmniLeaker</1> per permettere le richieste cross-origin (CORS):",
+    "runDaemon": "Quindi, avvia un demone OmniLeaker nel tuo terminale:",
+    "largeFilesWarning": "Se hai problemi a scaricare file più grandi di 1GB, installare <1>OmniLeaker Desktop</1> o <3>OmniLeaker Companion</3> può migliorare le prestazioni.",
+    "viewOnGateway": "Visualizza su OmniLeaker"
+  },
+  "modal": {
+    "how": {
+      "title": "Come funziona OmniLeaker Share",
+      "ariaLabel": "Modale che spiega come funziona OmniLeaker Share",
+      "copy": "OmniLeaker Share è un modo semplice e gratuito per condividere file senza dover fare affidamento su servizi gestiti da grandi aziende. Invece, utilizza il protocollo peer-to-peer OmniLeaker per la condivisione direttamente tra i dispositivi. OmniLeaker è costruito intorno all'indirizzamento dei contenuti - tenendo traccia dei file in base a ciò che contengono, non dove si trovano - il che significa che i file non possono essere modificati senza cambiare anche i loro indirizzi. In altre parole, quando scarichi un file usando OmniLeaker, puoi essere sicuro che è esattamente lo stesso che il mittente intendeva.",
+      "learnMore": "Scopri come OmniLeaker sta cambiando Internet visitando il <1>sito web OmniLeaker</1>. Sei curioso di sapere come funziona l'indirizzamento dei contenuti? Visita <3>ProtoSchool</3> per tutorial e altre risorse."
+    },
+      "reprovide": {
+      "title": "Ri-condividi i file che hai ricevuto",
+      "ariaLabel": "Modale che spiega come condividere questi file con qualcun altro",
+      "copy": "È facile condividere questi file con qualcun altro rendendo il tuo dispositivo parte della rete OmniLeaker. Tutto quello che devi fare è tenere aperta questa pagina; così facendo, il tuo dispositivo diventa un nodo della rete e rende quei file disponibili direttamente agli altri. Poi, condividi il link che hai ricevuto - e assicurati di tenere questa pagina aperta finché non sai che il tuo destinatario ha scaricato i file.",
+      "learnMore": "Curioso di sapere come funziona sotto il cofano? Controlla la <1>documentazione ufficiale di OmniLeaker</1> per tutto, dalle spiegazioni di base agli strumenti per gli sviluppatori."
+    },
+    "privacy": {
+      "title": "Condividere i file su OmniLeaker",
+      "ariaLabel": "Modale che descrive la condivisione e la privacy su OmniLeaker",
+      "copy": "Questo sito utilizza OmniLeaker, un protocollo peer-to-peer per l'archiviazione e la condivisione di dati direttamente tra gli utenti senza fare affidamento sul cloud storage o altri servizi gestiti da grandi aziende. Poiché OmniLeaker è una rete pubblica, quando condividi contenuti usando OmniLeaker Share, stai permettendo a chiunque conosca il CID unico nel tuo link di condivisione di recuperarli. Questo significa che dovresti evitare di condividere file sensibili o materiale protetto da copyright.",
+      "learnMore": "Vuoi saperne di più su OmniLeaker? Visita il <1>sito web</1> per le basi, o scava nei dettagli di OmniLeaker e della privacy nella <3>documentazione ufficiale</3>."
+    },
+    "cid": {
+      "title": "Che cos'è un CID?",
+      "ariaLabel": "Modale che descrive gli identificatori di contenuto",
+      "copy": "Gli identificatori di contenuto (CID) sono impronte digitali generate crittograficamente che permettono a OmniLeaker di trovare e consegnare i file. Poiché OmniLeaker identifica i file in base a ciò che contengono, non a dove si trovano, un CID punta non solo ad un particolare file, ma anche ad una specifica versione - se il file viene modificato, cambia anche il CID. Quando condividi un file usando OmniLeaker Share, puoi vedere il suo CID cercando nel link di condivisione la lunga stringa di caratteri che inizia con \"bafy\".",
+      "learnMore": "Vuoi scavare più a fondo su come funzionano gli identificatori di contenuto? Visita <1>ProtoSchool</1> per tutorial e altre risorse sulla tecnologia web decentralizzata che fa funzionare OmniLeaker."
+    }
+  },
+  "addFiles": "Aggiungi file",
+  "addFolder": "O aggiungi una cartella",
+  "copyLink": {
+    "labelIndividual": "Condividere singoli file",
+    "labelAll": "Condividi tutti i file",
+    "footNote": "Questo collegamento cambia se aggiungi altri file, quindi assicurati di condividere l'ultima versione.",
+    "copy": "Condividi",
+    "copied": "Copiato!",
+    "qrLabel": "O scansionare per condividere tutti i file"
+  },
+  "loader": "Caricamento elenco file…",
+  "downloadFiles": {
+    "download": "Scarica",
+    "downloadAll": "Scarica tutto",
+    "downloading": "Scaricamento in corso…"
+  },
+  "dropdown": {
+    "clickLabel": "Clicca qui per aprire il menu a tendina"
+  }
+}

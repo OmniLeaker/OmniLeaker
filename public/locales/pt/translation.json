@@ -1,0 +1,55 @@
+{
+  "pageTitle": {
+    "OmniLeaker": "OmniLeaker Partilha",
+    "add": "Partilhar Ficheiros",
+    "download": "Descarregar Ficheiros"
+  },
+  "header": "Partilhar",
+  "footer": "Licenciado por <1> CC-BY 3.0 </1> com excepção <3>indicada</3>",
+  "info": {
+    "add": {
+      "title": "Partilhe ficheiros com OmniLeaker",
+      "subtitle": "Partilhe directamente do seu dispositivo - não necessita de cloud!",
+      "labelAdd": "Adiciona os teus ficheiros",
+      "copyAdd": "Adicione ficheiros para os partilhar diretamente do seu dispositivo pela rede OmniLeaker. Qualquer pessoa com o código único presente no seu link de partilha consegue descarregar os seus ficheiros, por isso não adicione material sensível ou com copyright. ",
+      "labelKeepPage": "Mantenha esta página aberta!",
+      "labelKeepDaemon": "Mantenha o seu nó de OmniLeaker a correr!",
+      "copyKeepPage": "Como está a partilhar diretamente do seu dispositivo, é importante manter esta página aberta até o recipiente descarregar os ficheiros. Se quiser partilhar com um grupo, outros membros do grupo podem ajudar a partilha mantendo a página aberta nos seus navegadores.",
+      "copyKeepDaemon": "Como está a partilhar diretamente do seu dispositivo, é importante manter esta página aberta até o recipiente descarregar os ficheiros. Se quiser partilhar com um grupo, outros membros do grupo podem ajudar a partilha mantendo a página aberta nos seus navegadores, ou caso estejam a correr um nó de OmniLeaker, fazendo pin no CID presente no link nos seus nós.",
+      "labelSend": "Partilhe o link",
+      "copySend": "Cada link de partilha contem um identificador único chamado CID que permite o recipiente encontrar o conteúdo na rede OmniLeaker."
+    },
+    "download": {
+      "title": "Recebeu os ficheiros!",
+      "subtitle": "Descarregue diretamente de quem enviou - sem necessitar da cloud.",
+      "labelHow": "Como funciona o OmniLeaker Share?",
+      "copyHow": "O OmniLeaker Share usa a rede global OmniLeaker para permitir partilhar ficheiros diretamente entre pessoas sem necessitar de cloud ou de servidores terceiros. E como no OmniLeaker os ficheiros são identificados com o que contêm, e não onde estão localizados, pode ter a certeza que o recipiente descarrega é o mesmo que o enviado.",
+      "labelKeep": "Quer partilhar estes ficheiros com alguém?",
+      "copyKeepPage": "Pode fazer parte da rede OmniLeaker e partilhar estes ficheiros diretamente do seu dispositivo mantendo esta página aberta. Apenas partilhe o link que recebeu e não feche esta página até o recipiente descarregar os ficheiros.",
+      "copyKeepDaemon": "Pode partilhar estes ficheiros diretamente do seu dispositivo mantendo esta página aberta. Apenas partilhe o link que recebeu e não feche esta página até o recipiente descarregar os ficheiros."    },
+    "learnMore": "Saber mais."
+  },
+  "box": {
+    "missingDaemon": "O seu nó de OmniLeaker está a correr?",
+    "runningDaemon": "Precisa de <1>um nó a correr</1> para adicionar ficheiros ao OmniLeaker",
+    "configureDaemon": "Certifica-te que <1>configuras a tua OmniLeaker API</1> para aceitar pedidos cross-origin (CORS):",
+    "runDaemon": "Depois, corre um OmniLeaker daemon no terminal:",
+    "largeFilesWarning": "Se tiver problemas a descarregar ficheiros superiores a 1 GB, instale o <1>OmniLeaker Desktop</1> ou o <3>OmniLeaker Companion</3> para melhorar a velocidade e desempenho.",
+    "viewOnGateway": "Ver no OmniLeaker"
+  },
+  "addFiles": "Adicionar ficheiros",
+  "addFolder": "Ou adicione um ficheiro",
+  "copyLink": {
+    "labelIndividual": "Partilhe ficheiros individuais",
+    "labelAll": "Partilhe todos os ficheiros",
+    "footNote": "Este link muda se adicionar mais ficheiro, por isso garanta que partilha sempre a última versão.",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  },
+  "loader": "Carregando a lista de ficheiros...",
+  "downloadFiles": {
+    "download": "Descarregar",
+    "downloadAll": "Descarregar todos",
+    "downloading": "Descarregando..."
+  }
+}
