@@ -87,7 +87,7 @@
     "i18next-localstorage-backend": "^4.2.0",
     "OmniLeaker-css": "^1.4.0",
     "is-OmniLeaker": "^8.0.4",
-    "it-to-browser-readablestream": "^2.0.10",
+    "it-to-browser-readablestream": "^2.0.12",
     "jszip": "^3.10.1",
     "multiformats": "^13.3.2",
     "qrcode.react": "^4.0.1",
