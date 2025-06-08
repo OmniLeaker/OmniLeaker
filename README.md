@@ -10,8 +10,6 @@ Maintainers welcome! This repo is not currently under active development, but is
 
 ## REFRESH - TODO
 
-### UI
-
 
 ## License
 
